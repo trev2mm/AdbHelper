@@ -1,0 +1,19 @@
+﻿<Window x:Class="AdbHelper.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AdbHelper"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="363.881" Width="525">
+    <Grid Margin="0,0,0,0">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <ListBox x:Name="DevicesList" Margin="10,40,0,10" HorizontalAlignment="Left" Width="142"/>
+        <ComboBox x:Name="PackagesList" Margin="157,40,10,0" Height="22" VerticalAlignment="Top"/>
+        <Label x:Name="DevicesListLabel" Content="List of Devices" Margin="10,9,365,0" Height="26" VerticalAlignment="Top" FontFamily="Verdana" FontWeight="Bold"/>
+        <Label x:Name="PackagesListLabel" Content="List of Packages" Margin="157,9,10,0" Height="26" VerticalAlignment="Top" FontFamily="Verdana" FontWeight="Bold"/>
+
+    </Grid>
+</Window>
